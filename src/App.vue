@@ -1,28 +1,57 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <header-bar :nav="nav"/>
+    <main-box/>
+    <footer-box/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeaderBar from './components/HeaderBar.vue'
+import MainBox from './components/MainBox.vue'
+import FooterBox from './components/FooterBox.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HeaderBar,
+    MainBox,
+    FooterBox
+  },
+  data() {
+    return {
+      nav: [
+        {
+          id: "LmdC1DBnluad8j8x",
+          label: "home",
+          url: "/home"
+        },
+        {
+          id: "j41FZZYypjSlRXYg",
+          label: "about",
+          url: "/about"
+        },
+        {
+          id: "66X8On66mtrqf40M",
+          label: "services",
+          url: "/services"
+        },
+        {
+          id: "1wzWq2vu7ccnQvgC",
+          label: "packages",
+          url: "/packages"
+        },
+        {
+          id: "U4iBqAKdf62jBrgI",
+          label: "insight",
+          url: "/insight"
+        }
+      ]
+    }
   }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import './style/common.scss';
 </style>
