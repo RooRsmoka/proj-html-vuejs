@@ -1,20 +1,20 @@
 <template>
   <div id="app">
-    <header-bar :nav="nav"/>
+    <header-box :nav="nav"/>
     <main-box/>
     <footer-box/>
   </div>
 </template>
 
 <script>
-import HeaderBar from './components/HeaderBar.vue'
+import HeaderBox from './components/HeaderBox.vue'
 import MainBox from './components/MainBox.vue'
 import FooterBox from './components/FooterBox.vue'
 
 export default {
   name: 'App',
   components: {
-    HeaderBar,
+    HeaderBox,
     MainBox,
     FooterBox
   },

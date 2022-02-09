@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif0;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.spacer {
+    width: 70px;
+    border: 1px #1a3154 solid;
+    margin: 25px 0;
+}
+
+button {
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #58d6cb;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
