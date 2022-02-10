@@ -1,0 +1,14 @@
+.clients {
+    background-color: #f6f7f7;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+
+    img {
+        opacity: 0.5;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.services {
+    width: 100%;
+    background-color: #f6f7f7;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0;
+
+    p {
+        color: #949494;
+    }
+
+    .services-cards {
+        margin-top: 100px;
+        display: flex;
+
+        .card {
+            position: relative;
+            background-color: #fff;
+            width: calc((100% / 3) - 20px);
+            text-align: center;
+            margin: 0 10px;
+            padding: 30px 0;
+
+            i {
+                color: #426ead;
+                font-size: 60px;
+            }
+
+            h2 {
+                margin: 20px 0;
+            }
+
+            p {
+                padding: 0 30px;
+                margin-bottom: 50px;
+            }
+
+            .info {
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                padding: 10px 0;
+                background-color: #58d6cb;
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+.statistics {
+    display: flex;
+
+    .statistics-text {
+        background: url(/img/counters-bg-image.jpg);
+        width: 25%;
+        color: #fff;
+        padding: 120px 50px;
+
+        h2 {
+            margin: 30px 0;   
+        }
+    }
+
+    .statistics-show {
+        width: 75%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 30px 80px;
+
+        .stats {
+            width: 50%;
+            text-align: center;
+
+            p:first-child {
+                color: #426ead;
+                font-size: 48px;
+            }
+
+            p:last-child {
+                color: #949494;
+            }
+        }
+    }
+}
