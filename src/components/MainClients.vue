@@ -16,11 +16,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.clients {
-    background-color: #f6f7f7;
-    display: flex;
-    justify-content: space-around;
-    opacity: 0.5;
-    padding: 10px 0;
-}
+@import '@/style/mainClients.scss';
 </style>

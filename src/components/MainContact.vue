@@ -14,21 +14,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.contact {
-    background: url(/img/ready_to_talk_cta_bg.jpg) no-repeat 50% 50%;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 100px;
-
-    h1 {
-        font-size: 40px;
-        color: #fff;
-    }
-
-    p {
-        color: #949494;
-    }
-}
+@import '@/style/mainContact.scss';
 </style>
